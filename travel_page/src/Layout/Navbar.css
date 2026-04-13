@@ -1,0 +1,45 @@
+.nav-container{
+    display: flex;
+    background-color: #f8f6ea;
+    height: 105px;
+    justify-content: space-between;
+}
+.logo{
+    
+    width: 100px;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 7px;
+}
+.logo >p{
+    font-family: "Ephesis", cursive;
+    position: absolute;
+    color: var(--accent-primary);
+    font-size: 100px;
+    font-weight: 500;
+    font-style: normal;
+}
+.nav-list{
+    width: 44%;
+    display: flex;
+    color: #212529;
+    font-size: 17px;
+    margin-right: 70px;
+}
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-list ul li{
+    display: inline-block;
+}
+.nav-list ul li:hover{
+    cursor: pointer;
+    color: var(--accent-primary);
+}
